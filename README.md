@@ -2,6 +2,11 @@
 
 This site and repository provide a community‑organized collection of helpful information for using the neo80 Tri‑Mode Keyboard by Qwertykeys. While this guide aims to simplify setup and troubleshooting, **always refer to the official Qwertykeys documentation and contact their support team for any issues or assistance.**
 
+## Repository
+
+View the source for this guide or contribute on GitHub:
+🔗 **[https://github.com/BlakeGardner/neo80-guide](https://github.com/BlakeGardner/neo80-guide)**
+
 ## Connection Instructions
 
 ⚡ **Quick Reference:**
