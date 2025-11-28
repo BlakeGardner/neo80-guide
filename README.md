@@ -82,7 +82,7 @@ If you ever need to restore your neo80 keyboard back to its **factory default la
 
 ## Reset the Keyboard to Factory Settings
 
-You can restore the keyboard to its factory defaults by clearing the EEPROM. To do this, **hold ****************`Fn + Delete`**************** for five seconds**. This triggers the built‑in QMK keycode **`QK_CLEAR_EEPROM`**, which wipes all custom mappings — including Bluetooth pairings — and returns the keyboard to its original factory configuration.
+You can restore the keyboard to its factory defaults by clearing the EEPROM. To do this, hold `Fn + Delete` for five seconds. This triggers the built‑in QMK keycode `QK_CLEAR_EEPROM`, which wipes all custom mappings — including Bluetooth pairings — and returns the keyboard to its original factory configuration.
 
 ## Upgrading Firmware
 
