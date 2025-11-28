@@ -55,7 +55,7 @@ View the source for this guide or contribute on GitHub:
 
 ## Remapping and Customization
 
-1. Download the neo80 definition file from this repository.
+1. Download the neo80 definition file from this repository: [neo80_wireless.json](./neo80_wireless.json).
 2. Visit the [Via website](https://www.usevia.app/).
 3. Click on the Settings icon (gear).
 4. Enable "Show Design Tab" if not already enabled.
@@ -70,7 +70,7 @@ If you ever need to restore your neo80 keyboard back to its **factory default la
 
 ### 🔄 How to Reset Your Keymap
 
-1. Download the **official default layout file** from this repository.
+1. Download the default layout file from this repository: [neo80.default.layout.json](./neo80.default.layout.json).
 2. Open the [VIA website](https://www.usevia.app/).
 3. Go to **Settings** (gear icon).
 4. Make sure **"Show Design Tab"** is enabled.
