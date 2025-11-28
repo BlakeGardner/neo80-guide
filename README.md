@@ -2,16 +2,6 @@
 
 This site and repository provide a community‑organized collection of helpful information for using the neo80 Tri‑Mode Keyboard by Qwertykeys. While this guide aims to simplify setup and troubleshooting, **always refer to the official Qwertykeys documentation and contact their support team for any issues or assistance.**
 
-## About the neo80 Tri-Mode Keyboard
-
-The neo80 is a versatile mechanical keyboard supporting three connection modes:
-
-* **Wired (USB-C)**
-* **Bluetooth**
-* **2.4GHz Wireless (Dongle)**
-
-It features a compact 80% layout, hot-swappable switches, customizable RGB lighting, and robust build quality.
-
 ## Connection Instructions
 
 ⚡ **Quick Reference:**
@@ -85,25 +75,45 @@ If you ever need to restore your neo80 keyboard back to its **factory default la
 8. Scroll to the **Save + Load** section.
 9. Use **"Load Saved Layout"** to restore the factory keymap.
 
+## Reset the Keyboard to Factory Settings
+
+You can restore the keyboard to its factory defaults by clearing the EEPROM. To do this, **hold ****************`Fn + Delete`**************** for five seconds**. This triggers the built‑in QMK keycode **`QK_CLEAR_EEPROM`**, which wipes all custom mappings — including Bluetooth pairings — and returns the keyboard to its original factory configuration.
+
+## Upgrading Firmware
+
+1. Download and install **QMK Toolbox**.
+2. Download the latest firmware **.bin** file from the official website.
+3. Run **QMK Toolbox as Administrator** (right‑click → *Run as administrator*).
+4. Click **Open** and select the downloaded `.bin` file.
+5. Put the keyboard into **DFU Mode** using the steps below:
+
+   1. Disconnect the keyboard.
+   2. Hold **Fn + Esc**.
+   3. While holding the keys, plug the keyboard back in.
+   4. Release the keys once QMK Toolbox detects a **DFU device**.
+6. Click **Flash** to begin installing the firmware.
+
+## Putting the keyboard in DFU mode
+
+1. Open the [VIA configurator](https://www.usevia.app/).
+2. Go to the **Configure** tab.
+3. Choose a key you don’t normally use (for example, a key on Layer 1 or a function layer).
+4. Change its function to **`RESET`** (found under *Special → Bootloader / Reset*).
+5. Press that key on your keyboard.
+
+Once pressed, the keyboard will enter **DFU mode**.
+
+### 🖥️ What You’ll See in QMK Toolbox
+
+```
+DFU device connected
+```
+
+Your keyboard is now in bootloader mode and ready to flash new firmware.
+
 ## Useful Resources
 
 * [Official Product Page](https://www.qwertykeys.com/products/neo80)
 * [Build Guide](https://qwertykeys.notion.site/Neo80-Build-Guide-a89eb0eca0a0490bbb1fe27a2ef51fb4)
 * [Firmware Updates](https://www.qwertykeys.com/pages/fw)
 * [Pairing Instructions](https://qwertykeys.notion.site/Pairing-instructions-e45641e8dbfd4b96980d2bc0930fdfa1?p=2003d09009428196b0ffc7f1384cc80b&pm=c)
-
-## Troubleshooting
-
-* **Keyboard not connecting:**
-
-  * Try resetting by holding `Fn + Esc` for 5 seconds
-  * Ensure battery is charged
-  * Re-pair Bluetooth devices
-* **Firmware issues:**
-
-  * Download latest firmware from the official site
-  * Follow update instructions in the manual
-
----
-
-*This page is maintained by the community for the benefit of all neo80 users.*
